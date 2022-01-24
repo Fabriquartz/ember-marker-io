@@ -1,15 +1,14 @@
 {
   "name": "ember-marker-io",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "An ember addon for dealing with Marker.io from within your application",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/Fabriquartz/ember-marker-io",
   "license": "MIT",
-  "author": "",
+  "author": "haz901",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -26,6 +25,8 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "@marker.io/browser": "^0.12.0",
+    "ember-auto-import": "^1.0.0",
     "ember-cli-babel": "^7.26.6",
     "ember-cli-htmlbars": "^5.7.1"
   },
@@ -37,7 +38,6 @@
     "@glimmer/tracking": "^1.0.4",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.11.3",
     "ember-cli": "~3.28.3",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-inject-live-reload": "^2.1.0",
